@@ -1,6 +1,6 @@
 import time
 
-class tektronics_afg3000():
+class tektronix_afg3000():
 
     def __init__(self, pyvisa_instr):
         self.tekafg3102 = pyvisa_instr
@@ -311,3 +311,4 @@ class tektronics_afg3000():
                                  'SOURce1:FUNCtion:SHAPe PULS',
                                  'OUTPut:TRIGger:MODE "TRIGger"'
                                  ]
+
